@@ -1,0 +1,16 @@
+{
+  "name": "sliceanddice",
+  "version": "1.0.0",
+  "description": "Recipe helper app",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js"
+  },
+  "author": "Radivoje Jovanovic",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {}
+}
