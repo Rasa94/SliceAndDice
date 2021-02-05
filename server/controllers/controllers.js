@@ -54,6 +54,7 @@ const updateRecepie = async(req, res, next) => {
 
 const deleteRecepie = async(req, res, next) => {
     try {
+        console.log(req.params.id)
         const deleteRecepie = await Recepie.findByIdAndDelete(req.params.id);
         res.status(200).json({
             sucsess: true,

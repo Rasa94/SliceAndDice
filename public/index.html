@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Life+Savers:wght@400;700;800&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./style/css/style.css">
+    <title>Slice&Dice</title>
+</head>
+<body>
+    <nav> 
+        <h1><a href="index.html">Slice&Dice</a></h1>
+        <button id="addWindowBtn"><a href="addRecipe.html">Add New</a></button>
+        <button id="userRecipeWindowBtn"><a href="recipes.html">Your Recipes</a></button>
+    </nav>
+
+    <main>
+        <div class="banner bannerMain"></div>
+
+        <div class="box">
+            <div class="searchBox">
+                <input type="text" id="searchQuery" placeholder="Search for a recipe...">
+            </div> 
+    
+            <table class="searchResults none">
+                <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Ingredients</th>
+                    <th>Steps</th>
+                </tr>
+            </table>
+        </div>
+    </main>
+    
+    <script type="module" src="./scripts/app.js"></script>
+</body>
+</html>
+

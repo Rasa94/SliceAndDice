@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Life+Savers:wght@400;700;800&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./style/css/style.css"> 
+    <title>Slice&Dice</title>
+</head>
+<body>
+    <nav> 
+        <h1><a href="index.html">Slice&Dice</a></h1>
+        <button id="addWindowBtn"><a href="addRecipe.html">Add New</a></button>
+        <button id="userRecipeWindowBtn"><a href="recipes.html">Your Recipes</a></button>
+    </nav>
+
+    <main>
+        <div class="banner bannerAdd"></div>  
+        <div class="addWindow">
+            <div>
+                <form class="recipeForm">
+                    <div>
+                        <label for="">Name:</label>
+                        <input type="text" id="recipeName">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="">Description:</label>
+                        <input type="text" id="recipeDescription">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="">Ingredients:</label>
+                        <input type="text" id="recipeIngredients">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="">Steps:</label>
+                        <input type="text" id="recipeSteps">
+                    </div>
+                    <br>
+                    <input type="button" value="Add" id="addRecipeBtn">
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <script type="module" src="./scripts/addRecipes.js"></script> 
+</body>
+</html>

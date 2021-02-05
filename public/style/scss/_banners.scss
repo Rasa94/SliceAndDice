@@ -1,0 +1,47 @@
+.banner {
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bannerMain {
+    height: 65%; 
+    background-image: url("../images/banner1.jpg"); 
+    @extend .banner;
+
+}
+
+.bannerAdd {
+    height: 50%; 
+    background-image: url("../images/banner2.jpg");  
+    @extend .banner;
+
+}
+
+.bannerDB {
+    height: 50%; 
+    background-image: url("../images/banner3.jpg");  
+    @extend .banner;
+
+}
+
+@keyframes bannerFade {
+    0% {
+        transform: translateY(0%);
+        
+    }
+    100% {
+        transform: translateY(-110%);
+    }
+}
+
+@keyframes boxFade {
+    0% {
+        transform: translateY(0%);
+        
+    }
+    100% {
+        transform: translateY(-430%);
+    }
+}

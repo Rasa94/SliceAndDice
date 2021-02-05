@@ -1,0 +1,22 @@
+.recipeDB {
+    margin: 100px 5%;
+    height: 70%; 
+    width: 90%;
+    padding: 0;
+    top: 0;
+
+    div {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    h2 {
+        text-align: center;
+        height: 20px;
+        padding: 4px;
+    }
+
+    input {
+        background-color: gray;
+    }
+}

@@ -1,0 +1,180 @@
+nav {
+  display: block;
+  height: 40px;
+  font-size: 25px;
+}
+nav h1 {
+  float: left;
+}
+nav button {
+  float: right;
+}
+
+a {
+  color: black;
+  font-weight: bold;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+button {
+  height: 40px;
+  width: 160px;
+  background-color: white;
+  border: none;
+}
+
+button:hover {
+  background-color: orange;
+  color: white;
+  border: white;
+}
+
+#addRecipeBtn {
+  position: relative;
+  margin: 0;
+  float: right;
+  font-size: 25px;
+}
+
+.recipeForm {
+  margin: 0 auto;
+}
+.recipeForm div {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.recipeForm input {
+  width: 400px;
+  height: 40px;
+  margin: 0px;
+  font-size: 3rem;
+  vertical-align: bottom;
+  border: none;
+  background-color: #E5E5E5;
+  border: 1px solid black;
+}
+.recipeForm #recipeIngredients, .recipeForm #recipeSteps {
+  height: 60px;
+}
+
+.addWindow {
+  height: 50%;
+  width: 500px;
+  margin: 20px auto;
+}
+
+.banner, .bannerDB, .bannerAdd, .bannerMain {
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bannerMain {
+  height: 65%;
+  background-image: url("../images/banner1.jpg");
+}
+
+.bannerAdd {
+  height: 50%;
+  background-image: url("../images/banner2.jpg");
+}
+
+.bannerDB {
+  height: 50%;
+  background-image: url("../images/banner3.jpg");
+}
+
+@keyframes bannerFade {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-110%);
+  }
+}
+@keyframes boxFade {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-430%);
+  }
+}
+.searchBox {
+  width: 400px;
+  margin: 60px auto;
+  padding: 0;
+}
+.searchBox input {
+  width: 400px;
+  height: 40px;
+  margin: 5px;
+  font-size: 3rem;
+  vertical-align: bottom;
+  border: none;
+  background-color: #E5E5E5;
+  border: 1px solid black;
+}
+
+input[type=text] {
+  font-size: 2rem;
+}
+
+.searchResults {
+  flex-wrap: wrap;
+  background-color: #E5E5E5;
+  margin: 50px;
+  padding: 20px;
+}
+
+.searchResultsShow {
+  display: flex;
+}
+
+.outputImg {
+  height: 350px;
+  width: 350px;
+  margin: 10px;
+}
+
+.recipeDB {
+  margin: 100px 5%;
+  height: 70%;
+  width: 90%;
+  padding: 0;
+  top: 0;
+}
+.recipeDB div {
+  display: flex;
+  justify-content: space-between;
+}
+.recipeDB h2 {
+  text-align: center;
+  height: 20px;
+  padding: 4px;
+}
+.recipeDB input {
+  background-color: gray;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+nav, main, a, input, button {
+  font-family: "Life Savers", cursive;
+}
+
+main {
+  height: 90%;
+}
+
+/*# sourceMappingURL=style.css.map */

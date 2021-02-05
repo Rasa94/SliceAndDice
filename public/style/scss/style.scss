@@ -1,0 +1,31 @@
+@import '_navigation.scss';
+@import '_buttons.scss';
+@import '_form.scss';
+@import '_banners.scss';
+@import '_search.scss';
+@import '_recipes.scss';
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+nav, main, a, input, button {
+    font-family: 'Life Savers', cursive; 
+}
+
+main {
+    height: 90%; 
+}
+
+
+
+
+
+
+
+

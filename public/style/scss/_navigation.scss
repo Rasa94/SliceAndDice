@@ -1,0 +1,20 @@
+nav {
+    display: block;
+    height: 40px; 
+    font-size: 25px;
+
+    h1 {
+        float: left;
+    }
+
+    button {
+        float: right;  
+    }
+}
+
+a {
+    color: black;
+    font-weight: bold;
+    font-size: 25px; 
+    text-decoration: none;
+}

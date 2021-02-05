@@ -1,0 +1,39 @@
+.searchBox {
+    
+    width: 400px;
+    margin: 60px auto; 
+    padding: 0;
+
+    input {
+        width: 400px;
+        height: 40px;
+        margin: 5px;
+        font-size: 3rem;
+        vertical-align: bottom; 
+        border: none;
+        background-color: #E5E5E5; 
+        border: 1px solid black; 
+    }
+}
+
+input[type="text"] {
+    font-size:2rem;
+}
+
+.searchResults {
+    flex-wrap: wrap;
+    background-color: #E5E5E5; 
+    margin: 50px;
+    padding: 20px;
+}
+
+.searchResultsShow {
+    display: flex;
+}
+
+.outputImg {
+    height: 350px;
+    width: 350px;
+    margin: 10px;
+}
+

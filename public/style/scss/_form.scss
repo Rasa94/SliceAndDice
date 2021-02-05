@@ -1,0 +1,32 @@
+.recipeForm {
+    
+    margin: 0 auto; 
+
+    div {
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    input {
+
+        width: 400px;
+        height: 40px;
+        margin: 0px;
+        font-size: 3rem;
+        vertical-align: bottom; 
+        border: none;
+        background-color: #E5E5E5; 
+        border: 1px solid black; 
+    }
+
+    #recipeIngredients, #recipeSteps {
+        height: 60px;
+    }
+}
+
+.addWindow {
+    height: 50%;
+    width: 500px;
+    margin: 20px auto; 
+}
