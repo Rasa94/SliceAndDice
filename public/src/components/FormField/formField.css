@@ -1,0 +1,29 @@
+.formRow {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-top: 20px;
+    width: 200px;
+    text-align: center;
+}
+
+.inputContainer {
+    display: flex;
+}
+
+.inputContainer input {
+    width: 200px;
+    height: 40px;
+    margin: 15px 0;
+}
+
+.formLabel {
+    margin: auto 5px;
+}
+
+.addElBtn {
+    width: 40px;
+    height: 40px;
+    margin: 15px 10px;
+
+}

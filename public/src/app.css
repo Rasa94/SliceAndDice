@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    background-color: black;
+}
+
+h1, a, p, button {
+    color: white;
+}
+
+button {
+    border: none;
+    background-color: #131E0F;
+}
+

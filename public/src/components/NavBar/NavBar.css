@@ -1,0 +1,70 @@
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    height: 60px;
+}
+
+.logo {
+    text-decoration: none;
+    margin: 0 20px;
+    color: black;
+}
+
+.navigation {
+    display: none;
+}
+
+.dropdownNavigation {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    z-index: 10000;
+}
+
+.dropdownBtn {
+    width: 50px;
+    margin-right: 20px;
+}
+
+.navButton {
+    width: 60px;
+    padding: 15px;
+    margin: 2px;
+    text-decoration: none;
+    color: white;
+    border: none;
+
+}
+
+
+
+@media (max-width: 600px) {
+    
+}
+
+@media (min-width: 600px) {
+    .navigation {
+        display: inline;
+    }
+
+    .dropdownBtn {
+        display: none;
+    }
+}
+
+@media (min-width: 900px) {
+    
+}
+
+@media (min-width: 1200px) {
+    
+}
+
+@media (min-width: 1800px) {
+    
+} 

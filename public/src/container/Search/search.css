@@ -1,0 +1,53 @@
+.searchContainer__banner {
+    height: 290px;
+    width: 100%;
+    background: url('./../../assets/banners/banner1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 600px) {
+
+}
+
+@media (min-width: 600px) {
+    .searchContainer__banner {
+        height: 550px;
+    }
+}
+
+@media (min-width: 900px) {
+    
+}
+
+@media (min-width: 1200px) {
+    
+}
+
+@media (min-width: 1800px) {
+    
+}
+
+
+
+/* 
+@media (max-width: 600px) {
+
+}
+
+@media (min-width: 600px) {
+    
+}
+
+@media (min-width: 900px) {
+    
+}
+
+@media (min-width: 1200px) {
+    
+}
+
+@media (min-width: 1800px) {
+    
+} */

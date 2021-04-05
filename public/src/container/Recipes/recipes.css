@@ -1,0 +1,36 @@
+.recipes__banner {
+    height: 200px;
+    background: url('./../../assets/banners/banner3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+table {
+    width: 100%;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    
+}
+
+@media (min-width: 600px) {
+    .recipes__banner {
+        height: 300px;
+    }
+}
+
+@media (min-width: 900px) {
+    .recipes__banner {
+        height: 400px;
+    }
+}
+
+@media (min-width: 1200px) {
+    
+}
+
+@media (min-width: 1800px) {
+    
+} 
